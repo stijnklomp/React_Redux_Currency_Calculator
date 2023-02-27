@@ -1,0 +1,66 @@
+.form-group {
+  /* background: -webkit-linear-gradient(left, grey, grey 30%, white 30%, white); */
+  background: -webkit-linear-gradient(left, #282c34 120px, #202225 0px);
+  display: grid;
+  grid-template-columns: 70px 100px 240px;
+  grid-gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+  text-align: right;
+  font-size: 24px;
+}
+
+input,
+select {
+  color: white;
+  background-color: #202225;
+  min-width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: 0;
+}
+
+/* input::after {
+  content: "";
+  background-color: red;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+} */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input {
+  height: 20px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+}
+
+select {
+  max-width: 80px;
+  height: 32px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 0;
+}
+
+select option {
+  background-color: #202225;
+}
